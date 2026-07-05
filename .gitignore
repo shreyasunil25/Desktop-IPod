@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Env
+.env
+
+# Node
+node_modules/
+
+# Audio files (don't commit copyrighted MP3s)
+backend/static/audio/
+
+# OS
+.DS_Store
+Thumbs.db
+
+package-lock.json
+backend/README.md

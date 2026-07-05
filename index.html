@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Ipod</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="player">
+      <div class="display">
+        <img src="./assets/covers/1.jpg" alt="Display">
+
+        <button id="likeBtn">
+          <img id="likeIcon" src="./assets/parts/like.png" alt="Like">
+        </button>
+        <button id="likedQueueBtn">
+          <img id="likedQueueIcon" src="./assets/parts/playliked.png">
+        </button>
+
+      </div>
+
+      <div class="controls">
+        <button id="prevBtn">
+            <img src="./assets/parts/prev.png" alt="Prev">
+        </button>
+
+        <button id="playBtn">
+            <img src="./assets/parts/pause.png" alt="Pause">
+        </button>
+
+        <audio id="audioPlayer" src="./backend/static/audio/all the stars.mp3"></audio>
+
+        <button id="nextBtn">
+            <img src="./assets/parts/next.png" alt="Next">
+        </button>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
